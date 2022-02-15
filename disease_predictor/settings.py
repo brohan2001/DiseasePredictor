@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'disease_predictor.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'predico',
+        'NAME': 'predicare',
         'USER': 'postgres',
-        'PASSWORD': '1234',
+        'PASSWORD': 'postgres',
         'HOST': 'localhost'
     }
 }
