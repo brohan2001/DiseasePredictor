@@ -15,7 +15,6 @@ from chats.models import Chat,Feedback
 import joblib as jb
 model = jb.load('trained_model')
 nb = jb.load('nb_trained_model.pkl')
-rf = jb.load('rf_trained_model.pkl')
 svm = jb.load('svm_trained_model.pkl')
 
 
